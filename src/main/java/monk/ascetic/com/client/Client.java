@@ -45,7 +45,7 @@ public class Client {
 
 
 
-            
+
             // Start the client.
             ChannelFuture future = b.connect(host, port).sync(); // (5)
 
